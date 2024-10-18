@@ -1,9 +1,10 @@
 # Houseplants Of The World
 
-Curious to know where your houseplants are native? Interact with the globe below to see the countries
-where popular houseplant species feel truly at home.
+Ever wonder where your houseplants come from?
+Explore the globe below to discover the countries where your favorite houseplant species
+truly feel at home.
 
-This app is built with Mapbox API, React, Express, Node, and MongoDB.
+This app is built with Mapbox API, React, TailwindCSS, Express, Node, and MongoDB.
 
 ## Local Dev
 
