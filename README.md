@@ -17,7 +17,25 @@ When you host the client-side app, you will need to sign up for a Mapbox develop
 When you host the API server app, you will need to make some minor adjustments to the server app, such as removing any url routing responsibilities from Express.js and installing npm packages like express-slow-down and express-rate-limit. You will need to sign up for a MongoDB developer account, create a cluster, and obtain credentials to access the cluster. You will need to set up the cluster and populate it with data to run the API server app. An example object in the db looks like this:
 
 ```
-{"_id":{"$oid":""},"commonNames":{"1":"ZZ Plant","2":"Zanzibar Gem"},"latinNames":{"1":"Zamioculcas zamiifolia"},"countryCodes":{"1":"ZAF","2":"MWI","3":"KEN","4":"TZA","5":"ZWE","6":"MOZ"},"countrySrc":"","imageUrl":"","imageSrc":""}
+{
+  "_id": { "$oid": "" },
+  "commonNames": {
+    "1": "ZZ Plant",
+    "2": "Zanzibar Gem"
+  },
+  "latinNames": { "1": "Zamioculcas zamiifolia" },
+  "countryCodes": {
+    "1": "ZAF",
+    "2": "MWI",
+    "3": "KEN",
+    "4": "TZA",
+    "5": "ZWE",
+    "6": "MOZ"
+  },
+  "countrySrc": "",
+  "imageUrl": "",
+  "imageSrc": ""
+}
 ```
 
 ## Local Dev
