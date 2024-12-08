@@ -6,6 +6,10 @@ truly feel at home.
 
 This app is built with Mapbox API, React, TailwindCSS, Express, Node, and MongoDB.
 
+## Basics
+
+Before the server app can serve data, you will need to set up a database with MongoDB and populate it with data to run the server app. Outside of the local environment, you will need to host the server app on a platform like Heroku or AWS. For production, it made sense to break apart the monorepo and host the front-end app and server app separately. To do that, you will need to make some minor adjustments to the server app to remove any url routing responsibilities from Express.js. 
+
 ## Local Dev
 
 To get running, you will need to add a .env file to the client directory and a config.env file to the server directory.
